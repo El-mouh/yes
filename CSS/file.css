@@ -1,0 +1,97 @@
+/*
+16px = 100% = 1em
+*/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+.top {
+  background-color: #E3FDFD;
+  margin: 0;
+}
+.middle {
+  background-color: #FFF5E4;
+  padding-bottom: 30px;
+}
+.bottom {
+  padding: 10px;
+  background-color: #CBF1F5;
+}
+h1 {
+    margin: 0 auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.65rem;
+    color: #66BFBF;
+    line-height: 2;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5em;
+  color: #66BFBF;
+  font-weight: normal;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+.An {
+  text-decoration: underline;
+}
+.bottom-cloud {
+  position: absolute;
+}
+.top-cloud {
+  padding-top: 100px;
+  position: relative;
+  right: -300px;
+}
+hr {
+  border-style: dotted none none ;
+  border-width: 7px;
+  width: 10%;
+  color: grey;
+  margin: 100px auto;
+}
+a {
+  color: #11999E;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: #AA96DA;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.person {
+  float: left;
+  margin-right: 30px;
+}
+.ship {
+  float: right;
+  margin-left: 30px;
+}
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #0afa56;
+  font-size: 20px;
+  background: #54ade8;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
